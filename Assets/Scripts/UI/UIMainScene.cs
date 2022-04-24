@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 public class UIMainScene : MonoBehaviour
 {
     public static UIMainScene Instance { get; private set; }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     
     public interface IUIInfoContent
     {
