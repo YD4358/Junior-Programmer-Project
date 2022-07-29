@@ -35,6 +35,7 @@ public class UserControl : MonoBehaviour
                 var unit = hit.collider.GetComponentInParent<Unit>();
                 m_Selected = unit;
                 
+
                 
                 //check if the hit object have a IUIInfoContent to display in the UI
                 //if there is none, this will be null, so this will hid the panel if it was displayed
