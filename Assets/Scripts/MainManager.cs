@@ -2,7 +2,7 @@ using System.IO;
 using UnityEngine;
 public class MainManager : MonoBehaviour
 {
-    public static MainManager Instance;
+    public static MainManager Instance { get; private set; } // add getter to the end of the line
     public Color TeamColor; // new variable declared
     private void Awake()
     {
