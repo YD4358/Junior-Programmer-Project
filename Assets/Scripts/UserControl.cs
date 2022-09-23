@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
 /// <summary>
 /// This script handle all the control code, so detecting when the users click on a unit or building and selecting those
 /// If a unit is selected it will give the order to go to the clicked point or building when right clicking.
